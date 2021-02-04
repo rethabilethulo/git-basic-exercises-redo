@@ -1,0 +1,64 @@
+    1  sudo root
+    2  git config --global user.name "Rethabilethulo"
+    3  git config --global user.email "thulorethabile@gmail.com"
+    4  git status
+    5  mkdir git-basic-exercises
+    6  ls
+    7  cd Workspace/
+    8  cd git-basic-exercises/
+    9  ls -a
+   10  git init
+   11  la -a
+   12  git status
+   13  ls -a
+   14  git status
+   15  git log
+   16  git add
+   17  git add README.md
+   18  git status
+   19  git commit -m "initial commit"
+   20  git log
+   21  q
+   22  sudo snap install q  
+   23  nano README.md
+   24  cat README.md
+   25  nano README.md
+   26  cat README.md
+   27  git status
+   28  git commit -m "second commit"
+   29  git add README.md
+   30  git status
+   31  git commit -m "second commit"
+   32  git log
+   33  c29f1292bc9ae85dbc81a9401b65232aceaf1680
+   34  git checkout
+   35  git checkout c29f1292bc9ae85dbc81a9401b65232aceaf1680
+   36  cat README.md
+   37  git checkout main
+   38  git switch
+   39  git checkout
+   40  git checkout master
+   41  git branch
+   42  git checkout milkshake-flavours
+   43  git checkout -b milkshake-flavours
+   44  git branch
+   45  git checkout master
+   46  git branch
+   47  git checkout milkshake-flavours
+   48  git branch
+   49  nano milkshakes.md
+   50  git status
+   51  git commit - " added initial flavours"
+   52  git commit -m " added initial flavours"
+   53  git add milkshakes.md
+   54  git commit -m " added initial flavours"
+   55  git log
+   56  cat milkshakes.md 
+   57  git chekout master
+   58  git checkout master
+   59  git status
+   60  git checkout history
+   61  git checkout -b history
+   62  git log
+   63  git branch
+   64  history > history.txt
